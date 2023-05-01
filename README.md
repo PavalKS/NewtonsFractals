@@ -2,14 +2,14 @@
 Contains the code to create Fractals using Newton's Method in MATLAB
 
 Newton's Method is a well known procedure for finding roots of functions.  
-Specifically, we start with a function f(x) and an initial value of x0.  We then define values xn by the equation
+Specifically, we start with a function $f(x)$ and an initial value of $x_0$.  We then define values xn by the equation
 
-xn+1 = xn - f(xn)/f'(xn)
+$x_(n+1) = x_n - f(x_n)/f'(x_n)$
 
-In most cases, xn will converge to a root of f(x) rapidly.  
+In most cases, xn will converge to a root of $f(x)$ rapidly.  
 
 While most people learn this using real functions, there is no reason why Newton's Method cannot be used with complex functions.  
-So, given a function f(z) with multiple roots, we can color each point z in the complex plane by which root Newton's Method will converge to if z0 = z. 
+So, given a function $f(z)$ with multiple roots, we can color each point $z$ in the complex plane by which root Newton's Method will converge to if $z_0 = z$. 
 We can also alter the color depending on how quickly we converge to the root, and we will color the point black if we don't converge to anything in a 
 predetermined number of steps.
 
